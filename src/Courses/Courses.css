@@ -1,0 +1,8 @@
+.courses {
+    padding: calc(var(--main-space) * 3) 0 var(--main-space);
+}
+.courses h1 {
+    color: rgb(73, 190, 206);
+    margin-right: 20px;
+}
+

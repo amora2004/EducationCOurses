@@ -1,0 +1,21 @@
+.about {
+    margin-top:calc(var(--main-space) * 2) ;
+}
+.part3{
+    padding:calc(var(--main-space) * 3) 30px calc(var(--main-space) * 2)  ;
+   
+}
+@media (max-width : 991px){
+    .part3 {
+        padding-top: var(--main-space);
+    }
+}
+.part3 h1 {
+    margin-bottom: var(--main-space);
+    color:rgb(128, 126, 126);;
+}
+.part3 p {
+    line-height:40px;
+    font-size: 20px;
+    font-weight: bold;
+}

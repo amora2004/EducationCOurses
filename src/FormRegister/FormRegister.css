@@ -1,0 +1,91 @@
+.formRegister {
+    padding-top: calc(var(--main-space) * 2);
+}
+
+.formRegister>h1 {
+    color: rgb(50, 111, 116);
+    margin-right: 20px;
+}
+
+.formRegister>p {
+    color: rgb(177, 14, 14);
+    font-size: 18px;
+    margin: calc(var(--main-space) / 2);
+    font-size: bold;
+}
+
+.formRegister .formHead h3 {
+    color: rgb(50, 111, 116);
+    margin-right: 20px;
+}
+.formRegister .formHead p {
+    font-size: 18px;
+}
+.formRegister .formItem {
+    padding: calc(var(--main-space) / 2);
+    background-color: #fff;
+    margin: calc(var(--main-space) / 2);
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.required {
+    font-size: 24px;
+    color: rgb(177, 14, 14);
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.formRegister .formItem label {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: calc(var(--main-space) / 2);
+
+}
+
+.formRegister .formItem select {
+    outline: none;
+    border: none;
+    width: 80%;
+    position: relative;
+    align-items: center;
+    padding: calc(var(--main-space) / 4);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formRegister .formRadio label {
+    margin-right: calc(var(--main-space) / 4);
+    font-weight: normal;
+}
+
+.formRegister .formRadio input {
+    margin-left: calc(var(--main-space) / 4);
+}
+
+.formRegister .ansr {
+    width: 100%;
+   outline: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.formRegister .error {
+    font-size: 90%;
+    color: red;
+    margin-top: calc(var(--main-space) / 3);
+    margin-right: 10px;
+}
+.result {
+    width: fit-content;
+    color: rgb(50, 111, 116);
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    bottom: var(--main-space);
+    margin-right: auto;
+}

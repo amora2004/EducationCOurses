@@ -1,0 +1,190 @@
+.back {
+    background-size: cover;
+    padding: var(--main-space);
+}
+
+.back form .header {
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: calc(var(--main-space) / 2);
+    padding-top: calc(var(--main-space) / 2);
+}
+
+.back form .heade img {
+    width: 80px;
+    margin: 0 10% 0 0;
+}
+
+.back form .header img {
+    margin-bottom: 20px;
+    width: 80px;
+    margin: 0 20% 0 0;
+}
+
+.back form .heade p,
+.back form .header p {
+    font-size: 22px;
+}
+
+.back::after {
+    content: "";
+    background-color: rgb(11, 86, 116);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 130%;
+    z-index: -2;
+    opacity: .2;
+}
+
+
+.back::before {
+    content: "";
+    background-image: url(../../assist/61Z-R+GMJPS._AC_UF1000\,1000_QL80_.jpg);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 130%;
+    z-index: -3;
+    filter: blur(3px);
+}
+
+.form {
+    position: relative;
+    width: 40%;
+    margin-top: calc(var(--main-space) * 2);
+    background-color: rgb(255, 255, 255);
+    padding: calc(var(--main-space) / 2);
+    padding-bottom: var(--main-space);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0px 0px 15px #cacaca;
+    border-radius: 5px 5px 50px 50px;
+    overflow: hidden;
+}
+
+@media (max-width : 767px) {
+    .form {
+        width: 90%;
+        padding: 15px;
+        padding-bottom: inherit;
+    }
+}
+
+.formlogo {
+    width: 68px;
+    height: 68px;
+}
+
+.parg {
+    font-weight: bold;
+}
+
+.inp::placeholder {
+    letter-spacing: 1px;
+}
+
+.inp {
+    color: black;
+    width: 30vw;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #f8f5f5;
+    padding: calc(var(--main-space) / 5);
+    margin: calc(var(--main-space) / 5);
+    direction: ltr;
+    position: relative;
+}
+
+@media (max-width : 767px) {
+    .inp {
+        width: 60vw;
+    }
+}
+
+.inp:hover {
+    background-color: #e7dfdf;
+    border-width: 2px;
+}
+
+.botn {
+    width: 30vw;
+    padding: calc(var(--main-space) / 6);
+    color: white;
+    background-color: skyblue;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+@media (max-width:767px) {
+    .botn {
+        width: 60vw;
+    }
+}
+
+.botn:hover,
+.clicked {
+    scale: 1.05;
+    box-shadow: 3px 3px 5px #ddd;
+}
+
+.botn a {
+    color: white;
+    text-decoration: none;
+}
+
+.botn1 {
+    margin: 10px 10px 0 0;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.or::after,
+.or::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    top: 50%;
+    width: 30%;
+    background-color: black;
+}
+
+.or::before {
+    left: 10%;
+}
+
+.or::after {
+    right: 10%;
+}
+
+img {
+    width: 62px;
+}
+
+.error {
+    font-size: 90%;
+    color: red;
+    margin-bottom: calc(var(--main-space) / 3);
+    margin-right: 10px;
+}
+
+.eye {
+    position: absolute;
+    padding: 15px 10%;
+    right: 10px;
+    color: rgb(90, 87, 87) ;
+    font-size: 20px;   
+}

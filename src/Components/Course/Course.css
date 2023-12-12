@@ -1,0 +1,57 @@
+.course {
+    display: flex;
+    box-shadow: 2px 2px 10px #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+}
+
+@media (max-width : 767px) {
+    .course {
+        flex-direction: column;
+        width: 80%;
+        margin-right:10% ;
+    }
+}
+.course h2 {
+    color: rgb(73, 190, 206);
+}
+.course h2 span {
+    color: rgb(50, 111, 116);
+}
+.course p {
+    line-height: 1.8rem;
+    color: rgb(160, 157, 157);
+}
+
+.course .more {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.course .more:hover {
+    background-color: #fff;
+    color: var(--main-color);
+    scale: 1.2;
+}
+
+.course .courseImg {
+    width: 30%;
+    height: 100%;
+    margin-right: -20px;
+    opacity: .8;
+}
+@media (max-width : 767px){
+    .course .courseImg {
+        width: 110%;
+        height: 30%;
+    }   
+}
